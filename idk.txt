@@ -1,1 +1,11 @@
-javascript:prompt('Extension IDs here: (seperated by commas)').split(',').forEach(i=>{chrome.management.setEnabled(i.trim(),!1)})
+hey @everyone sorry for so many pings but we're kinda at a gold mine of bypasses.
+Huge thanks once again to <@824066884231495709> for the share: 
+
+**LTBEEF**
+*Completely disable any extension including your web filter*
+
+`javascript:prompt('Extension IDs here: (seperated by commas)').split(',').forEach(i=>{chrome.management.setEnabled(i.trim(),!1)}) `
+
+- Copy this code, and drag it to your Bookmarks bar as a bookmarklet.
+- Visit chrome://extensions.
+- Copy the ID of the extension you want to disablen. (See screenshot)
